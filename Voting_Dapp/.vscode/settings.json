@@ -1,12 +1,12 @@
 {
-    "cSpell.words": [
-        "Candiates",
-        "setremaining",
-        "Thirdweb"
-    ],
     "workbench.colorCustomizations": {
-        "activityBar.background": "#073511",
-        "titleBar.activeBackground": "#094B18",
-        "titleBar.activeForeground": "#F1FDF4"
-    }
+        "activityBar.background": "#4C1E2F",
+        "titleBar.activeBackground": "#6A2A42",
+        "titleBar.activeForeground": "#FEFCFD"
+    },
+    "cSpell.words": [
+        "contants",
+        "scrollbars",
+        "thirdweb"
+    ]
 }

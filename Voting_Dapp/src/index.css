@@ -1,3 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+/* Hide scrollbar but keep scrolling */
+html {
+  overflow: -moz-scrollbars-none; /* Firefox */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+body {
+  overflow-y: auto; /* Allow scrolling */
+  -ms-overflow-style: none; /* IE */
+  scrollbar-width: none; /* Firefox fallback */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
